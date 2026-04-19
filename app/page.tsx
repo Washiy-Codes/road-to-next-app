@@ -1,8 +1,11 @@
+import Link from "next/link"
+import { PATHS } from "@/constants/paths";
 
 const page = () => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-linear-to-br from-purple-400 to-pink-600">
-      <h1 className="font-red py-20px text-center">Here to learn</h1>
+    <div>
+      <h1 className="text-4xl font-bold">Homepage</h1> <br />
+      <Link href={PATHS.TICKETS} className="underline">Go to Tickets</Link>
     </div>
   )
 }

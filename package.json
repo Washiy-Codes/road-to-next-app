@@ -8,7 +8,8 @@
     "start": "next start",
     "deploy": "gh-pages -d .next",
     "export": "next export",
-    "lint": "eslint"
+    "lint": "eslint",
+    "type": "tsc --noEmit"
   },
   "dependencies": {
     "next": "16.2.4",
