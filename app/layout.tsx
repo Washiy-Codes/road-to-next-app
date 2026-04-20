@@ -32,7 +32,8 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">{children}
         <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl bg-amber-100/95
-        fixed left-0 right-0 top-0 z-20">
+        fixed left-0 right-0 top-0 z-20
+        supports-backdrop-blur:bg-background/60">
         <div>
           <Link href={PATHS.HOME} className="text-bold text-lg">Home</Link>
         </div>

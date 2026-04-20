@@ -17,9 +17,11 @@ async function TicketsPage({ params }: TicketsPageProps) {
   }
 
   return (
-    <div>
+    <div className="pt-16">
       <h2>Ticket ID: {initialTicket.id}</h2>
       <h3>Ticket Title: {initialTicket.title}</h3>
+      <h3>{initialTicket.content}</h3>
+
     </div>
   );
 }
