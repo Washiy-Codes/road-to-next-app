@@ -8,13 +8,13 @@ const Data: { id: number; title: string, status: string; content: string}[] = [
      { 
      id: 2, 
      title: "Ticket 2",
-     status: "OPEN",
+     status: "IN_PROGRESS",
      content: "This is the second ticket"
     },
 
     { id: 3, 
      title: "Ticket 3",
-     status: "DONE",
+     status: "OPEN",
      content: "This is the third ticket"
     },
 ];
