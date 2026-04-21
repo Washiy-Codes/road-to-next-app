@@ -12,8 +12,6 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 - 🎨 Modern UI with Tailwind CSS + shadcn/ui
 - 🧠 Clean architecture & separation of concerns
 - 🔐 Type safety with TypeScript
-- 📦 Scalable project structure
-
 ---
 
 ## 🧩 Features
