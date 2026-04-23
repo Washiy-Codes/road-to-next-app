@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link"
-import { PATHS } from "@/constants/paths";
-
+import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,18 +28,11 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}
-        <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl bg-amber-100/95
-        fixed left-0 right-0 top-0 z-20
-        supports-backdrop-blur:bg-background/60">
-        <div>
-          <Link href={PATHS.HOME} className="text-bold text-lg">Home</Link>
-        </div>
-        <div>
-          <Link href={PATHS.TICKETS} className="text-sm underline">Tickets</Link>
-        </div>
-      </nav>
+      <body className="min-h-full flex flex-col">
+        <Header />
+        {children}
       </body>
     </html>
   );
 }
+
