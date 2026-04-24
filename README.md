@@ -4,7 +4,7 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 
 ---
 
-## ✨ Overview
+## Overview
 
 **Road to Next App** is a learning-driven project focused on mastering:
 
@@ -14,7 +14,7 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 - 🔐 Type safety with TypeScript
 ---
 
-## 🧩 Features
+## Features
 
 - 📄 Dynamic ticket system
 - 🎯 Status-based UI (OPEN, IN_PROGRESS, DONE)
