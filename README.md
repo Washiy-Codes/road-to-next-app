@@ -16,12 +16,12 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 
 ## Features
 
-- 📄 Dynamic ticket system
-- 🎯 Status-based UI (OPEN, IN_PROGRESS, DONE)
-- 🎨 Reusable UI components (shadcn)
-- 🔗 Dynamic routing for ticket details
-- ⚡ Fast and responsive design
-- 🧱 Component-driven architecture
+- Dynamic ticket system
+- Status-based UI (OPEN, IN_PROGRESS, DONE)
+- Reusable UI components (shadcn)
+- Dynamic routing for ticket details
+- Fast and responsive design
+- Component-driven architecture
 
 ---
 
