@@ -8,10 +8,10 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 
 **Road to Next App** is a learning-driven project focused on mastering:
 
-- ⚡ Next.js App Router
-- 🎨 Modern UI with Tailwind CSS + shadcn/ui
-- 🧠 Clean architecture & separation of concerns
-- 🔐 Type safety with TypeScript
+- Next.js App Router
+- Modern UI with Tailwind CSS + shadcn/ui
+- Clean architecture & separation of concerns
+- Type safety with TypeScript
 ---
 
 ## Features
