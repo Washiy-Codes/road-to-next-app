@@ -2,11 +2,12 @@ import Link from "next/link"
 import { PATHS } from "@/constants/paths";
 import { Button } from './ui/button'
 import { House, SquareKanban } from "lucide-react";
+import ThemeSwitcher from "./theme/theme-switcher";
 
 const Header = () => {
   return (
     <>
-     <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl bg-amber-100/95
+     <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl bg-muted/95
         fixed left-0 right-0 top-0 z-20
         supports-backdrop-blur:bg-background/60">
         <div>
@@ -17,7 +18,8 @@ const Header = () => {
            </Link>
           </Button>
         </div>
-        <div>
+        <div className="flex items-center gap-4 justify-center">
+          <ThemeSwitcher />
           <Button variant="outline">
             <SquareKanban />
             <Link href={PATHS.TICKETS} className="text-sm underline">

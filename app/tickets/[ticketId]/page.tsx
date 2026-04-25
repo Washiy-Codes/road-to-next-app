@@ -3,7 +3,7 @@ import Data from "@/data";
 import  Link  from "next/link";
 import { Button } from "@/components/ui/button";
 import { PATHS } from "@/constants/paths";
-
+import TicketItem from "@/components/ticketItem";
 type TicketsPageProps = {
   params: Promise<{
     ticketId: string;
@@ -27,11 +27,8 @@ async function TicketsPage({ params }: TicketsPageProps) {
     )
   }
   return (
-    <div className="pt-16">
-      <h2>Ticket ID: {initialTicket.id}</h2>
-      <h3>Ticket Title: {initialTicket.title}</h3>
-      <h3>{initialTicket.content}</h3>
-
+    <div className="flex justify-center animate-fade-in-from-top pt-16">
+      <TicketItem ticket={initialTicket} isDetail={true} /> 
     </div>
   );
 }
