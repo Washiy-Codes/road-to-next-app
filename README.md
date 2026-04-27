@@ -1,4 +1,4 @@
-# 🚀 Road to Next App
+# Road to Next App
 
 A modern **Next.js application** built to explore scalable architecture, clean UI design, and production-ready patterns using **TypeScript, Tailwind CSS, and shadcn/ui**.
 
