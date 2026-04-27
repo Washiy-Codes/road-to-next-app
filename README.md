@@ -25,7 +25,7 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - **Framework:** Next.js (App Router)
 - **Language:** TypeScript
