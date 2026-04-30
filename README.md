@@ -21,7 +21,6 @@ A modern **Next.js application** built to explore scalable architecture, clean U
 - Reusable UI components (shadcn)
 - Dynamic routing for ticket details
 - Fast and responsive design
-- Component-driven architecture
 
 ---
 
