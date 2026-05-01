@@ -7,9 +7,9 @@ import ThemeSwitcher from "./theme/theme-switcher";
 const Header = () => {
   return (
     <>
-     <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl bg-muted/95
+     <nav className="flex justify-between py-2.5 px-5 border-b-2 w-full backdrop-blur-2xl
         fixed left-0 right-0 top-0 z-20
-        supports-backdrop-blur:bg-background/60">
+        supports-backdrop-blur:bg-background/60 bg-muted/black">
         <div>
           <Button variant="outline">
            <House />
@@ -22,7 +22,7 @@ const Header = () => {
           <ThemeSwitcher />
           <Button variant="outline">
             <SquareKanban />
-            <Link href={PATHS.TICKETS} className="text-sm underline">
+            <Link href={PATHS.TICKETS} className="text-sm">
               <h1 className="text-lg font-semibold {buttonVariant({variant: 'default'})}">Tickets</h1>
             </Link>
           </Button>
