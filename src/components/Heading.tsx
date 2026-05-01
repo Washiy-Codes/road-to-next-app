@@ -7,9 +7,9 @@ type HeadingProps = {
 const Heading = ({title, description}: HeadingProps) => {
   return (
     <>
-        <div className="flex flex-col items-start pt-16 mx-2.5">
-         <h1 className="text-3xl font-bold tracking-tight pb-1">{title}</h1> <br />
-         <p className="text-xl text-black-600 text-muted-foreground" >{description}</p>
+        <div className="flex flex-col items-start mx-2.5">
+         <h1 className="text-3xl font-bold tracking-tight mt-16">{title}</h1> <br />
+         <p className="text-xl text-black-600 mt-0">{description}</p>
         </div>
         <Separator className="mb-4 bg-gray-400 h-0.5"/>
     </>
