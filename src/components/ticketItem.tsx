@@ -36,7 +36,7 @@ const TicketItem = ({ ticket, isDetail }: TicketItemProps) => {
             </CardTitle>
             </CardHeader>
               <CardContent>
-                <span className={clsx("whitespace-break-spaces", isDetail ? "line-clamp-none" : "line-clamp-2")}>
+                <span className={clsx("whitespace-break-spaces", isDetail ? "line-clamp-none" : "line-clamp-3")}>
                 <h2>{content}</h2>
                 </span>
                 </CardContent>
