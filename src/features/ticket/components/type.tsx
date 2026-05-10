@@ -2,9 +2,9 @@ export type Status = "OPEN" | "IN_PROGRESS" | "DONE";
 
 
 type Ticket = {
-    id: number;
+    id: string;
     title: string;
     content: string;
-    safeStatus: Status;
+    status: Status;
 };
 export type { Ticket };

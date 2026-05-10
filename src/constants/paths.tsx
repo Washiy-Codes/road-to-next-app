@@ -1,6 +1,6 @@
 export const PATHS = {
   HOME: "/",
   TICKETS: "/tickets",
-  TICKET_DETAILS: (id: number) => `/tickets/${id}`,
+  TICKET_DETAILS: (id: string) => `/tickets/${id}`,
 };
 

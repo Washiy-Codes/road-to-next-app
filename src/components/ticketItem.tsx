@@ -19,7 +19,7 @@ type TicketItemProps = {
 };
 
 const TicketItem = ({ ticket, isDetail }: TicketItemProps) => {
-  const { id, title, content, safeStatus } = ticket;
+  const { id, title, content, status} = ticket;
 
   const detailedButton = <Button variant="outline" size="icon">
             <Link key={`ticket-${id}`} href={PATHS.TICKET_DETAILS(id)}>
@@ -31,7 +31,7 @@ const TicketItem = ({ ticket, isDetail }: TicketItemProps) => {
         <Card  key={id} className="w-full my-1.5" >
           <CardHeader>
             <CardTitle className="flex items-center gap-x-2 font-bold text-2xl">
-              <span>{TICKET_ICONS[safeStatus]}</span>
+              <span>{TICKET_ICONS[status]}</span>
                 <h1 className="truncate">{title}</h1>
             </CardTitle>
             </CardHeader>
